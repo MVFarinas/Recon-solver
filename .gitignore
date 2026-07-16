@@ -1,0 +1,22 @@
+# Rust
+/target/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / viewer
+node_modules/
+viewer/dist/
+
+# Extracted Riot assets — never commit (README §9). Pipeline, not output.
+geometry/extract/output/
+*.pak
+*.collision.bin
+*.gltf
+*.glb
+*.fbx
+
+# OS
+.DS_Store

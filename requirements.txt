@@ -1,0 +1,6 @@
+# Python toolchain for geometry bake (Phase 1) and physics fitting (Phase 4).
+# Install into .venv:  python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy
+scipy
+trimesh
+maturin
