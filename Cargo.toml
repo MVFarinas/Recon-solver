@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["sim", "solver", "cli"]
+
+[workspace.dependencies]
+glam = "0.29"
+rayon = "1.10"
+
+[profile.release]
+lto = "thin"
